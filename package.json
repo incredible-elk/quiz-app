@@ -4,6 +4,8 @@
   "description": "A simple quiz app",
   "main": "index.html",
   "scripts": {
+    "start": "parcel src/index.html",
+    "build": "parcel build src/index.html",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -18,5 +20,8 @@
   "homepage": "https://github.com/incredible-elk/quiz-app#readme",
   "dependencies": {
     "parcel-bundler": "^1.12.4"
+  },
+  "devDependencies": {
+    "sass": "^1.26.5"
   }
 }
