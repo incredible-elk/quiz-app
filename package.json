@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/incredible-elk/quiz-app/issues"
   },
-  "homepage": "https://github.com/incredible-elk/quiz-app#readme"
+  "homepage": "https://github.com/incredible-elk/quiz-app#readme",
+  "dependencies": {
+    "parcel-bundler": "^1.12.4"
+  }
 }
