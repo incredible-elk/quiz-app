@@ -1,0 +1,22 @@
+.navigation {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 2px;
+  position: sticky;
+  bottom: 0;
+}
+
+.navigation__link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: var(--primary);
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.4em;
+}
+
+.navigation__link--active {
+  background: rgb(131, 98, 113);
+  color: var(--primary);
+}

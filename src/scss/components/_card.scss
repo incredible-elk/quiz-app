@@ -1,0 +1,21 @@
+.card {
+  padding: 20px;
+  background: none;
+  box-shadow: 0 6px 40px #0005;
+}
+
+.card__answers {
+  justify-self: center;
+}
+
+.card__answers > li {
+  display: inline-block;
+  background: rgb(252, 224, 237);
+  margin: 4px 2px;
+  padding: 4px;
+  border-radius: 5px;
+}
+
+.scrollable {
+  overflow-y: scroll;
+}
