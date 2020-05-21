@@ -1,2 +1,7 @@
 .button {
+  transform: scale(0.9);
+  padding: 10px;
+  border-radius: 10px;
+  border: 2px solid var(--background1);
+  background: var(--primary);
 }

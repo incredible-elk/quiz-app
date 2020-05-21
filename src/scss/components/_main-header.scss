@@ -11,7 +11,7 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: var(--primary);
+  background: linear-gradient(var(--primary) 75%, var(--background2));
   padding: 10px;
   font-weight: bold;
   font-family: Verdana, Geneva, Tahoma, sans-serif;

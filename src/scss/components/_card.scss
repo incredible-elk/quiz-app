@@ -20,8 +20,14 @@
   transform: scale(2);
 }
 
+.card__question {
+  margin: 30px 0;
+}
+
 .card__tags {
-  justify-self: center;
+  text-align: center;
+  margin: 0 auto;
+  padding: 0;
 }
 
 .card__tags > li {
@@ -30,6 +36,11 @@
   margin: 4px 2px;
   padding: 4px;
   border-radius: 5px;
+}
+
+.card__button {
+  display: block;
+  margin: 30px auto;
 }
 
 .card__answer {
