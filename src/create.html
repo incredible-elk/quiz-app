@@ -5,35 +5,45 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Quiz-App</title>
     <link rel="stylesheet" href="scss/styles.scss" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Caveat&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <header class="main-header">Create</header>
     <main class="srollable p-20 gap-20">
       <label for="">
-        <h2>Add Question:</h2>
+        <h2 class="label__title">Add Question:</h2>
         <textarea
+          class="label__text"
           name=""
           id=""
-          cols="30"
-          rows="10"
+          cols=""
+          rows=""
           placeholder="Why am I?"
         ></textarea>
       </label>
 
       <label class="" for="">
-        <h2>Add Answer:</h2>
+        <h2 class="label__title">Add Answer:</h2>
         <textarea
+          class="label__text"
           name=""
           id=""
-          cols="30"
-          rows="10"
+          cols=""
+          rows=""
           placeholder="I don't know. Ask Google!"
         ></textarea>
       </label>
 
       <label for="">
-        <h2>Add Tags:</h2>
-        <input type="text" placeholder="e.g. science, movies, food" />
+        <h2 class="label__title">Add Tags:</h2>
+        <input
+          class="label__input"
+          type="text"
+          placeholder="e.g. science, movies, food"
+        />
       </label>
       <button class="button">SUBMIT</button>
     </main>
