@@ -1,15 +1,17 @@
+header {
+  scroll-margin-top: 3px;
+}
+
 .main-header {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 2;
+
   display: flex;
   justify-content: center;
   align-items: center;
-  position: sticky;
-  top: 0;
-  background: linear-gradient(
-    45deg,
-    rgba(3, 115, 84, 0.5) 0%,
-    rgba(153, 255, 219, 1) 35%,
-    rgba(231, 222, 105, 0.5116247182466737) 100%
-  );
+  background: var(--primary);
   padding: 10px;
   font-weight: bold;
   font-family: Verdana, Geneva, Tahoma, sans-serif;

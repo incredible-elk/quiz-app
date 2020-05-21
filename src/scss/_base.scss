@@ -5,21 +5,7 @@
 body {
   font-family: sans-serif;
   margin: 0;
-  background: rgb(3, 115, 84);
-  background: linear-gradient(
-    90deg,
-    rgba(3, 115, 84, 1) 0%,
-    rgba(153, 255, 219, 1) 35%,
-    rgba(231, 222, 105, 1) 100%
-  );
-  background: rgb(3, 115, 84);
-  background: linear-gradient(
-    45deg,
-    rgba(3, 115, 84, 1) 0%,
-    rgba(153, 255, 219, 1) 35%,
-    rgba(231, 222, 105, 0.5116247182466737) 100%
-  );
-  color: var(--primary);
+  background: var(--background1);
 }
 
 a {

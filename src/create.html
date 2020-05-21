@@ -3,7 +3,45 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Quiz-App</title>
+    <link rel="stylesheet" href="scss/styles.scss" />
   </head>
-  <body></body>
+  <body>
+    <header class="main-header">Create</header>
+    <main class="srollable p-20 gap-20">
+      <label for="">
+        <h2>Add Question:</h2>
+        <textarea
+          name=""
+          id=""
+          cols="30"
+          rows="10"
+          placeholder="Why am I?"
+        ></textarea>
+      </label>
+
+      <label class="" for="">
+        <h2>Add Answer:</h2>
+        <textarea
+          name=""
+          id=""
+          cols="30"
+          rows="10"
+          placeholder="I don't know. Ask Google!"
+        ></textarea>
+      </label>
+
+      <label for="">
+        <h2>Add Tags:</h2>
+        <input type="text" placeholder="e.g. science, movies, food" />
+      </label>
+      <button class="button">SUBMIT</button>
+    </main>
+    <nav class="navigation">
+      <a class="navigation__link" href="/index.html">🏠</a>
+      <a class="navigation__link" href="/bookmarks.html">❤️</a>
+      <a class="navigation__link navigation__link--active" href="/">📝</a>
+      <a class="navigation__link" href="/profile.html">😊</a>
+    </nav>
+  </body>
 </html>

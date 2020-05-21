@@ -1,19 +1,39 @@
 .card {
+  position: relative;
   padding: 20px;
-  background: none;
-  box-shadow: 0 6px 40px #0005;
+  background: var(--background1);
+  box-shadow: 0 6px 4px #ccc;
 }
 
-.card__answers {
+.card__title {
+  position: sticky;
+  top: 0;
+  padding-bottom: 5px;
+  border-bottom: var(--background2) solid 2px;
+  font-size: 20px;
+}
+
+.card__bookmark {
+  position: absolute;
+  top: 25px;
+  right: 30px;
+  transform: scale(2);
+}
+
+.card__tags {
   justify-self: center;
 }
 
-.card__answers > li {
+.card__tags > li {
   display: inline-block;
-  background: rgb(252, 224, 237);
+  background: var(--background2);
   margin: 4px 2px;
   padding: 4px;
   border-radius: 5px;
+}
+
+.card__answer {
+  display: none;
 }
 
 .scrollable {
