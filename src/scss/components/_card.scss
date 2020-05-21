@@ -22,6 +22,9 @@
 
 .card__question {
   margin: 30px 0;
+  font-family: 'Caveat';
+  font-weight: 200;
+  font-size: 25px;
 }
 
 .card__tags {
@@ -34,7 +37,7 @@
   display: inline-block;
   background: var(--background2);
   margin: 4px 2px;
-  padding: 4px;
+  padding: 7px;
   border-radius: 5px;
 }
 

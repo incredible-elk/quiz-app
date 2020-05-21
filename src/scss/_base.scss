@@ -3,6 +3,7 @@
 }
 
 body {
+  min-height: 100%;
   font-family: sans-serif;
   margin: 0;
   background: var(--background1);
@@ -15,5 +16,5 @@ a {
 button,
 input,
 textarea {
-  font-size: 1em;
+  font-size: 16px;
 }
