@@ -43,9 +43,31 @@
 
 .card__button {
   display: block;
-  margin: 30px auto;
+  margin: 40px auto;
 }
 
 .card__answer {
   display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: 999;
+
+  background: var(--background1);
+
+  &.open {
+    display: block;
+  }
+}
+
+.card__content {
+  max-width: 80%;
+  min-height: 80%;
+  background: var(--background1);
+  margin: 70px;
+  padding: 20px;
+  border-radius: 15px;
+  border: 3px solid var(--background1);
 }
